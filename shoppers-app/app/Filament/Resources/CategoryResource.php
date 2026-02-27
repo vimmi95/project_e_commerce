@@ -29,10 +29,6 @@ use Filament\Forms\Set;
 use Filament\Tables\Actions\ActionGroup;
 use Illuminate\Support\Str;
 
-
-// use Filament\Forms\Components\Grid;
-// use Filament\Forms\Components\Toggle;
-
 class CategoryResource extends Resource
 {
     protected static ?string $model = Category::class;
